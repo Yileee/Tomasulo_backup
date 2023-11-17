@@ -51,8 +51,13 @@ public class Register<G>
     {
         return this[idx];
     }
+    
+    public int Length
+    {
+        get => this.length;
+    }
 
-    public string PrintInfo()
+    public virtual string PrintInfo()
     {
         string output = "";
         for (int i = 0; i < this.data.Count; i++)
