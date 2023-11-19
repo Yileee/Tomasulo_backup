@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 public class Register<G>
 {
-    private readonly List<G> data;
-    private readonly int length;
+    public List<G> data;
+    public int length;
+    // private readonly List<G> data;
+    // private readonly int length;
 
     public Register(int length, G initialValue = default(G))
     {

@@ -1,8 +1,8 @@
 using System;
 
-public class IntReg : Register<int>
+public class IntRegister : Register<int>
 {
-    public IntReg(int length, int initialValue = 0) : base(length, initialValue)
+    public IntRegister(int length, int initialValue = 0) : base(length, initialValue)
     {
     }
 
